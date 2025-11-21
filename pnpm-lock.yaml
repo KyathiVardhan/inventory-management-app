@@ -14,6 +14,9 @@ importers:
       '@stackframe/stack':
         specifier: ^2.8.52
         version: 2.8.52(@aws-sdk/credential-provider-web-identity@3.936.0)(@types/react-dom@19.2.3(@types/react@19.2.6))(@types/react@19.2.6)(next@16.0.3(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(tailwindcss@4.1.17)
+      lucide-react:
+        specifier: ^0.554.0
+        version: 0.554.0(react@19.2.0)
       next:
         specifier: 16.0.3
         version: 16.0.3(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -2948,6 +2951,11 @@ packages:
 
   lucide-react@0.508.0:
     resolution: {integrity: sha512-gcP16PnexqtOFrTtv98kVsGzTfnbPekzZiQfByi2S89xfk7E/4uKE1USZqccIp58v42LqkO7MuwpCqshwSrJCg==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  lucide-react@0.554.0:
+    resolution: {integrity: sha512-St+z29uthEJVx0Is7ellNkgTEhaeSoA42I7JjOCBCrc5X6LYMGSv0P/2uS5HDLTExP5tpiqRD2PyUEOS6s9UXA==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -7024,6 +7032,10 @@ snapshots:
       react: 19.2.0
 
   lucide-react@0.508.0(react@19.2.0):
+    dependencies:
+      react: 19.2.0
+
+  lucide-react@0.554.0(react@19.2.0):
     dependencies:
       react: 19.2.0
 
